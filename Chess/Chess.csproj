@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="PhotosOfFigures\Chess_bdt60.png" />
+    <None Remove="PhotosOfFigures\Chess_blt60.png" />
+    <None Remove="PhotosOfFigures\Chess_kdt60.png" />
+    <None Remove="PhotosOfFigures\Chess_klt60.png" />
+    <None Remove="PhotosOfFigures\Chess_ndt60.png" />
+    <None Remove="PhotosOfFigures\Chess_nlt60.png" />
+    <None Remove="PhotosOfFigures\Chess_pdt60.png" />
+    <None Remove="PhotosOfFigures\Chess_plt60.png" />
+    <None Remove="PhotosOfFigures\Chess_qdt60.png" />
+    <None Remove="PhotosOfFigures\Chess_qlt60.png" />
+    <None Remove="PhotosOfFigures\Chess_rdt60.png" />
+    <None Remove="PhotosOfFigures\Chess_rlt60.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xam.Plugin.Media" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="PhotosOfFigures\Chess_qlt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="PhotosOfFigures\Chess_bdt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_blt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_kdt60.png" />
+    <Resource Include="PhotosOfFigures\Chess_klt60.png" />
+    <Resource Include="PhotosOfFigures\Chess_ndt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_nlt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_pdt60.png" />
+    <Resource Include="PhotosOfFigures\Chess_plt60.png" />
+    <Resource Include="PhotosOfFigures\Chess_qdt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_rdt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="PhotosOfFigures\Chess_rlt60.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="PromotionWindow\PromotionWindBlack.xaml.cs">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+
+</Project>

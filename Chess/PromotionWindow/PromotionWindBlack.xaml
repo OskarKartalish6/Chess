@@ -1,0 +1,26 @@
+﻿<local:PromWindBase x:Class="Chess.PromotionWindow.PromotionWindBlack"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Chess.PromotionWindow"
+        Title="PromotionWindBlack" Height="120" Width="40" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+            <Image Name="Queen" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30" MouseLeftButtonDown="SelectFigure">
+                <Image.Source>/PhotosOfFigures/Chess_qdt60.png</Image.Source>
+            </Image>
+
+            <Image Name="Rook" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30" MouseLeftButtonDown="SelectFigure">
+                <Image.Source>/PhotosOfFigures/Chess_rdt60.png</Image.Source>
+            </Image>
+
+            <Image Name="Bishop" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30" MouseLeftButtonDown="SelectFigure">
+                <Image.Source>/PhotosOfFigures/Chess_bdt60.png</Image.Source>
+            </Image>
+
+            <Image Name="Knight" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30" Height="30" MouseLeftButtonDown="SelectFigure">
+                <Image.Source>/PhotosOfFigures/Chess_ndt60.png</Image.Source>
+            </Image>
+        </StackPanel>
+
+    </Grid>
+</local:PromWindBase>
